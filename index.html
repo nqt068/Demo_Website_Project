@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>HIEC Website Project</h1>
+            <p>Write something here</p>
+            <br/>
+            <a href="" class="hero-btn">Follow our fanpage to know more about us</a>
+        </div>
+    </section>
+<!-- ----------Course--------- -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Write something here</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>something here</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>something here</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduat</h3>
+                <p>something here</p>
+            </div>
+        </div>
+    </section>
+<!-- -------- Campus ---------- -->
+    <section class="campus">
+        <h1>Our Campus</h1>
+        <p>Some Description</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- -------------Facilities-------------- -->
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Write Something Here</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>Write somthing here</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>World Class Library</h3>
+                <p>Write somthing here</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>World Class Library</h3>
+                <p>Write somthing here</p>
+            </div>
+        </div>
+    </section>
+<!-- -----------Testimonials-------------- -->
+    <section class="testimonials">
+        <h1>What users say about us?</h1>
+        <p>Some awesome quotes</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>
+                        Something emotional
+                    </p>
+                    <h3>Name of the commenter</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+    
+            <div class="testimonials-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>
+                        Something emotional
+                    </p>
+                    <h3>Name of the commenter</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+<!-- -----------Contact-------------     -->
+    <section class="cta">
+        <h1>Contact Info</h1>
+        <br>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+
+
+
+
+
+
+
+
+
+<!-- -----JS Code----- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>
